@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4e5ff754d7543ea7835139105857af1c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4e5ff754d7543ea7835139105857af1c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4e5ff754d7543ea7835139105857af1c = L.map(
+                "map_4e5ff754d7543ea7835139105857af1c",
+                {
+                    center: [-12.086148444838562, -77.03377716494747],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f11cbd564351b32bec945d6f2fd0f676 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f11cbd564351b32bec945d6f2fd0f676.addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+            var marker_9acbdb0c89b603a814c5973559d8478e = L.marker(
+                [-12.081490439255656, -77.03623236441807],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_d53dab5f953b754c3c525294769c5170 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0ac37df1bf93029b893af1e7c931d226 = $(`<div id="html_0ac37df1bf93029b893af1e7c931d226" style="width: 100.0%; height: 100.0%;">     <b>Toy D Coleccion Juguetes y Figuras Lima Perú</b><br>     Av. Gral. Juan Antonio Álvarez de Arenales 1700 - C, Lince 15046<br>     <a href="https://www.instagram.com/toydcoleccion/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_d53dab5f953b754c3c525294769c5170.setContent(html_0ac37df1bf93029b893af1e7c931d226);
+            
+        
+
+        marker_9acbdb0c89b603a814c5973559d8478e.bindPopup(popup_d53dab5f953b754c3c525294769c5170)
+        ;
+
+        
+    
+    
+            marker_9acbdb0c89b603a814c5973559d8478e.bindTooltip(
+                `<div>
+                     Toy D Coleccion Juguetes y Figuras Lima Perú
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9fd88f1689fdd3eec006ad0aaa679014 = L.marker(
+                [-12.081995204377112, -77.03593035092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_9dacb33d698ddadf0b9497ffa183bdb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_44cf821fcc4843dc6e59becf9dd794f1 = $(`<div id="html_44cf821fcc4843dc6e59becf9dd794f1" style="width: 100.0%; height: 100.0%;">     <b>Akabane Comics</b><br>     Avenida Arenales 1737, Tienda 1-21 Centro Comercial Arenales Plaza, Lince 15046<br>     <a href="https://www.facebook.com/pabloakabanecoleccionables/?locale=es_LA" target="_blank">Red social</a>     </div>`)[0];
+                popup_9dacb33d698ddadf0b9497ffa183bdb8.setContent(html_44cf821fcc4843dc6e59becf9dd794f1);
+            
+        
+
+        marker_9fd88f1689fdd3eec006ad0aaa679014.bindPopup(popup_9dacb33d698ddadf0b9497ffa183bdb8)
+        ;
+
+        
+    
+    
+            marker_9fd88f1689fdd3eec006ad0aaa679014.bindTooltip(
+                `<div>
+                     Akabane Comics
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3c755565e6fb6eed3e82ed1b516e3e43 = L.marker(
+                [-12.081895204377112, -77.03583035092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_e61f58d79a487920576f55512a789c3c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b6908b8aa3236cbbd781d7686f08fa = $(`<div id="html_07b6908b8aa3236cbbd781d7686f08fa" style="width: 100.0%; height: 100.0%;">     <b>Factory Comics Store</b><br>     Av. Gral. Juan Antonio Álvarez de Arenales 1624, Lince 15073<br>     <a href="https://www.instagram.com/factory_comics/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_e61f58d79a487920576f55512a789c3c.setContent(html_07b6908b8aa3236cbbd781d7686f08fa);
+            
+        
+
+        marker_3c755565e6fb6eed3e82ed1b516e3e43.bindPopup(popup_e61f58d79a487920576f55512a789c3c)
+        ;
+
+        
+    
+    
+            marker_3c755565e6fb6eed3e82ed1b516e3e43.bindTooltip(
+                `<div>
+                     Factory Comics Store
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1e153b557de38766a8b6afd3526b3851 = L.marker(
+                [-12.082095204377111, -77.03593035092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_de7ba00eb57399d6a1065d2bb7fe60a6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d223b1deddac756a8da28e07aa65701 = $(`<div id="html_8d223b1deddac756a8da28e07aa65701" style="width: 100.0%; height: 100.0%;">     <b>The best Collections</b><br>     Lima 14, Av. Arenales 1737, tda 3-25 2do nivel, Lince<br>     <a href="https://www.instagram.com/explore/locations/263122847512850/the-best-collections/?hl=es#" target="_blank">Red social</a>     </div>`)[0];
+                popup_de7ba00eb57399d6a1065d2bb7fe60a6.setContent(html_8d223b1deddac756a8da28e07aa65701);
+            
+        
+
+        marker_1e153b557de38766a8b6afd3526b3851.bindPopup(popup_de7ba00eb57399d6a1065d2bb7fe60a6)
+        ;
+
+        
+    
+    
+            marker_1e153b557de38766a8b6afd3526b3851.bindTooltip(
+                `<div>
+                     The best Collections
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71e118d6bacae532b4d23b21fff2db5f = L.marker(
+                [-12.081995204377112, -77.03603035092647],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_7b0fe03a1e426a60765a95925da88dbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f7e09137c6a0c492bec6f1dcf8773c0 = $(`<div id="html_8f7e09137c6a0c492bec6f1dcf8773c0" style="width: 100.0%; height: 100.0%;">     <b>Anime Import Perú</b><br>     Centro Comercial Arenales, Av. Gral. Juan Antonio Álvarez de Arenales 1737, Lince 15046<br>     <a href="https://www.instagram.com/anime_import_peru/?hl=es-la" target="_blank">Red social</a>     </div>`)[0];
+                popup_7b0fe03a1e426a60765a95925da88dbd.setContent(html_8f7e09137c6a0c492bec6f1dcf8773c0);
+            
+        
+
+        marker_71e118d6bacae532b4d23b21fff2db5f.bindPopup(popup_7b0fe03a1e426a60765a95925da88dbd)
+        ;
+
+        
+    
+    
+            marker_71e118d6bacae532b4d23b21fff2db5f.bindTooltip(
+                `<div>
+                     Anime Import Perú
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bdd0617346a4bfeccb06d1f4230b5601 = L.marker(
+                [-12.081995204377112, -77.03573035092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_d652f1b1a4d326e77939e50cd7923cbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f7ddcb06dba6a9e07653de5885766bd = $(`<div id="html_5f7ddcb06dba6a9e07653de5885766bd" style="width: 100.0%; height: 100.0%;">     <b>Pierre Toys</b><br>     Av. Gral. Juan Antonio Álvarez de Arenales 1737, Lince 15046<br>     <a href="https://www.facebook.com/PierreToys/?locale=es_LA" target="_blank">Red social</a>     </div>`)[0];
+                popup_d652f1b1a4d326e77939e50cd7923cbb.setContent(html_5f7ddcb06dba6a9e07653de5885766bd);
+            
+        
+
+        marker_bdd0617346a4bfeccb06d1f4230b5601.bindPopup(popup_d652f1b1a4d326e77939e50cd7923cbb)
+        ;
+
+        
+    
+    
+            marker_bdd0617346a4bfeccb06d1f4230b5601.bindTooltip(
+                `<div>
+                     Pierre Toys
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7daed6d3ccf1a7c933f3f0c3320c886d = L.marker(
+                [-12.081695204377112, -77.03593035092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_009b08810beac5d864088546f1375109 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f600e45115f3f8fd0a24304e1ce0cb8 = $(`<div id="html_8f600e45115f3f8fd0a24304e1ce0cb8" style="width: 100.0%; height: 100.0%;">     <b>S Geek</b><br>     Av. Gral. Juan Antonio Álvarez de Arenales 1701, Lince 15046<br>     <a href="https://www.facebook.com/sgeekcomic/?locale=es_LA" target="_blank">Red social</a>     </div>`)[0];
+                popup_009b08810beac5d864088546f1375109.setContent(html_8f600e45115f3f8fd0a24304e1ce0cb8);
+            
+        
+
+        marker_7daed6d3ccf1a7c933f3f0c3320c886d.bindPopup(popup_009b08810beac5d864088546f1375109)
+        ;
+
+        
+    
+    
+            marker_7daed6d3ccf1a7c933f3f0c3320c886d.bindTooltip(
+                `<div>
+                     S Geek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_308a329bccf4470d3daaf8279ea9aed7 = L.marker(
+                [-12.075343568345206, -77.08189773743489],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_85e8d5b1510734d26c742bcfca5a6e62 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1144e5cc7d5567cdc188b530a16a7c5d = $(`<div id="html_1144e5cc7d5567cdc188b530a16a7c5d" style="width: 100.0%; height: 100.0%;">     <b>Level 100 Store</b><br>     Av. La Mar 2275, San Miguel 15088<br>     <a href="https://www.instagram.com/level100store/" target="_blank">Red social</a>     </div>`)[0];
+                popup_85e8d5b1510734d26c742bcfca5a6e62.setContent(html_1144e5cc7d5567cdc188b530a16a7c5d);
+            
+        
+
+        marker_308a329bccf4470d3daaf8279ea9aed7.bindPopup(popup_85e8d5b1510734d26c742bcfca5a6e62)
+        ;
+
+        
+    
+    
+            marker_308a329bccf4470d3daaf8279ea9aed7.bindTooltip(
+                `<div>
+                     Level 100 Store
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e19c6523f969e3c5b1e73f4a1a1e481f = L.marker(
+                [-12.113257336444494, -76.9915357797626],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_88a9f913fecc6763f74c06b93d70a133 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83114e80d91968d6596945f07092dba7 = $(`<div id="html_83114e80d91968d6596945f07092dba7" style="width: 100.0%; height: 100.0%;">     <b>OriginToys</b><br>     Centro Comercial Caminos del Inca, Jirón Monterrey 170, Santiago de Surco 15038<br>     <a href="https://www.instagram.com/origintoys/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_88a9f913fecc6763f74c06b93d70a133.setContent(html_83114e80d91968d6596945f07092dba7);
+            
+        
+
+        marker_e19c6523f969e3c5b1e73f4a1a1e481f.bindPopup(popup_88a9f913fecc6763f74c06b93d70a133)
+        ;
+
+        
+    
+    
+            marker_e19c6523f969e3c5b1e73f4a1a1e481f.bindTooltip(
+                `<div>
+                     OriginToys
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d7b67bad1f0536a28627338f17841b7b = L.marker(
+                [-12.05208479919577, -77.03724265092646],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_f0af17d765d08e27137a4acccd13fc02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01bd83702eb425798b0d1613ec68ee68 = $(`<div id="html_01bd83702eb425798b0d1613ec68ee68" style="width: 100.0%; height: 100.0%;">     <b>Blue Star Comics</b><br>     Jr. Camaná 964, Lima 15001<br>     <a href="https://www.instagram.com/bluestarcomics/" target="_blank">Red social</a>     </div>`)[0];
+                popup_f0af17d765d08e27137a4acccd13fc02.setContent(html_01bd83702eb425798b0d1613ec68ee68);
+            
+        
+
+        marker_d7b67bad1f0536a28627338f17841b7b.bindPopup(popup_f0af17d765d08e27137a4acccd13fc02)
+        ;
+
+        
+    
+    
+            marker_d7b67bad1f0536a28627338f17841b7b.bindTooltip(
+                `<div>
+                     Blue Star Comics
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_714c8718ed7a4258fd299fa86d9e9fa3 = L.marker(
+                [-12.054614185617325, -77.03562803558192],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_2d060c48ac971e83af59ea648a7454c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b560804f3299518f6b02e3314e99172 = $(`<div id="html_2b560804f3299518f6b02e3314e99172" style="width: 100.0%; height: 100.0%;">     <b>RED DE COLECCIONISTAS DEL PERÚ</b><br>     Jirón Carabaya 1150, Lima 15001<br>     <a href="https://www.instagram.com/rcp.sac/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_2d060c48ac971e83af59ea648a7454c1.setContent(html_2b560804f3299518f6b02e3314e99172);
+            
+        
+
+        marker_714c8718ed7a4258fd299fa86d9e9fa3.bindPopup(popup_2d060c48ac971e83af59ea648a7454c1)
+        ;
+
+        
+    
+    
+            marker_714c8718ed7a4258fd299fa86d9e9fa3.bindTooltip(
+                `<div>
+                     RED DE COLECCIONISTAS DEL PERÚ
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0c6c3007b656322dbdf6e610d24e5805 = L.marker(
+                [-12.092269766803009, -77.04849546441807],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_9793fa0578d7c089df282c74275cf836 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ca2b8eefa28c1828035f8970784974 = $(`<div id="html_15ca2b8eefa28c1828035f8970784974" style="width: 100.0%; height: 100.0%;">     <b>Librería Communitas</b><br>     Av. Dos de Mayo 1690, San Isidro 15076<br>     <a href="https://www.instagram.com/libreriacommunitas/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_9793fa0578d7c089df282c74275cf836.setContent(html_15ca2b8eefa28c1828035f8970784974);
+            
+        
+
+        marker_0c6c3007b656322dbdf6e610d24e5805.bindPopup(popup_9793fa0578d7c089df282c74275cf836)
+        ;
+
+        
+    
+    
+            marker_0c6c3007b656322dbdf6e610d24e5805.bindTooltip(
+                `<div>
+                     Librería Communitas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_27c984c529f631e4496775f0f89a5eb3 = L.marker(
+                [-12.119326271187187, -77.02676784907354],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_88349b625f61373865a512f89b2b9867 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2432383ebab45aedd13f62785fcfee3 = $(`<div id="html_d2432383ebab45aedd13f62785fcfee3" style="width: 100.0%; height: 100.0%;">     <b>Toy Master</b><br>     Av. la Paz 138, Miraflores 15074<br>     <a href="https://www.instagram.com/toysmaster.pe/" target="_blank">Red social</a>     </div>`)[0];
+                popup_88349b625f61373865a512f89b2b9867.setContent(html_d2432383ebab45aedd13f62785fcfee3);
+            
+        
+
+        marker_27c984c529f631e4496775f0f89a5eb3.bindPopup(popup_88349b625f61373865a512f89b2b9867)
+        ;
+
+        
+    
+    
+            marker_27c984c529f631e4496775f0f89a5eb3.bindTooltip(
+                `<div>
+                     Toy Master
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4274b4fe79b7a2e383ad4b7a75a99526 = L.marker(
+                [-12.126020634628565, -76.99969832209034],
+                {
+}
+            ).addTo(map_4e5ff754d7543ea7835139105857af1c);
+        
+    
+        var popup_68c71922c4c44532cddbef194786885d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da4406374a5a1b77c35ab80362d0e570 = $(`<div id="html_da4406374a5a1b77c35ab80362d0e570" style="width: 100.0%; height: 100.0%;">     <b>Game Center</b><br>     Av. Aviación 5087 Polvos Rosados stand 76/Stand 29<br>     <a href="https://www.instagram.com/gamecenterlatam/?hl=es" target="_blank">Red social</a>     </div>`)[0];
+                popup_68c71922c4c44532cddbef194786885d.setContent(html_da4406374a5a1b77c35ab80362d0e570);
+            
+        
+
+        marker_4274b4fe79b7a2e383ad4b7a75a99526.bindPopup(popup_68c71922c4c44532cddbef194786885d)
+        ;
+
+        
+    
+    
+            marker_4274b4fe79b7a2e383ad4b7a75a99526.bindTooltip(
+                `<div>
+                     Game Center
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
